@@ -23,7 +23,7 @@ bottomCenter = " "
 bottomRight = " "
 
 # This will be the board that the help users coordinate the placement of their X's and O's.
-print("\t\t\t\t|1|  |2|  |3|\n\n\t\t\t\t|4|  |5|  |6|\n\n\t\t\t\t|7|  |8|  |9|")
+print("\t\t\t\t|7|  |8|  |9|\n\n\t\t\t\t|4|  |5|  |6|\n\n\t\t\t\t|1|  |2|  |3|")
 
 # This statement tells the users that whoever goes first will be the X's.
 print("\n\n\nThe player going first will be the X's. The other player will be the O's")
@@ -32,13 +32,13 @@ while True:
 # X User input will now start. The code below will place the X where the user decides.
     while True:
         userDecision = input("\nPLAYER X: \nUsing the numbered board as guidance, type in the number to indicate where you want your first X: ")
-        if "1" in userDecision:
+        if "7" in userDecision:
             topLeft = "X"
             break
-        elif "2" in userDecision:
+        elif "8" in userDecision:
             topCenter = "X"
             break
-        elif "3" in userDecision:
+        elif "9" in userDecision:
             topRight = "X"
             break
         elif "4" in userDecision:
@@ -50,13 +50,13 @@ while True:
         elif "6" in userDecision:
             middleRight = "X"
             break
-        elif "7" in userDecision:
+        elif "1" in userDecision:
             bottomLeft = "X"
             break
-        elif "8" in userDecision:
+        elif "2" in userDecision:
             bottomCenter = "X"
             break
-        elif "9" in userDecision:
+        elif "3" in userDecision:
             bottomRight = "X"
             break
         else:
@@ -69,13 +69,13 @@ while True:
 # O user input will now start. The code below is similar to the one above.            
     while True:
         userDecision = input("\nPLAYER O: \nUsing the numbered board as guidance, type in the number to indicate where you want your first O: ")
-        if "1" in userDecision and " " in topLeft:
+        if "7" in userDecision and " " in topLeft:
             topLeft = "O"
             break
-        elif "2" in userDecision and " " in topCenter:
+        elif "8" in userDecision and " " in topCenter:
             topCenter = "O"
             break
-        elif "3" in userDecision and " " in topRight:
+        elif "9" in userDecision and " " in topRight:
             topRight = "O"
             break
         elif "4" in userDecision and " " in middleLeft:
@@ -87,13 +87,13 @@ while True:
         elif "6" in userDecision and " " in middleRight:
             middleRight = "O"
             break
-        elif "7" in userDecision and " " in bottomLeft:
+        elif "1" in userDecision and " " in bottomLeft:
             bottomLeft = "O"
             break
-        elif "8" in userDecision and " " in bottomCenter:
+        elif "2" in userDecision and " " in bottomCenter:
             bottomCenter = "O"
             break
-        elif "9" in userDecision and " " in bottomRight:
+        elif "3" in userDecision and " " in bottomRight:
             bottomRight = "O"
             break
         else:
@@ -106,13 +106,13 @@ while True:
 # X user input, 2nd turn.
     while True:
         userDecision = input("\nPLAYER X: \nUsing the numbered board as guidance, type in the number to indicate where you want your X: ")
-        if "1" in userDecision and " " in topLeft:
+        if "7" in userDecision and " " in topLeft:
             topLeft = "X"
             break
-        elif "2" in userDecision and " " in topCenter:
+        elif "8" in userDecision and " " in topCenter:
             topCenter = "X"
             break
-        elif "3" in userDecision and " " in topRight:
+        elif "9" in userDecision and " " in topRight:
             topRight = "X"
             break
         elif "4" in userDecision and " " in middleLeft:
@@ -124,13 +124,13 @@ while True:
         elif "6" in userDecision and " " in middleRight:
             middleRight = "X"
             break
-        elif "7" in userDecision and " " in bottomLeft:
+        elif "1" in userDecision and " " in bottomLeft:
             bottomLeft = "X"
             break
-        elif "8" in userDecision and " " in bottomCenter:
+        elif "2" in userDecision and " " in bottomCenter:
             bottomCenter = "X"
             break
-        elif "9" in userDecision and " " in bottomRight:
+        elif "3" in userDecision and " " in bottomRight:
             bottomRight = "X"
             break
         else:
@@ -143,13 +143,13 @@ while True:
 # O user input, 2nd turn.            
     while True:
         userDecision = input("\nPLAYER O: \nUsing the numbered board as guidance, type in the number to indicate where you want your O: ")
-        if "1" in userDecision and " " in topLeft:
+        if "7" in userDecision and " " in topLeft:
             topLeft = "O"
             break
-        elif "2" in userDecision and " " in topCenter:
+        elif "8" in userDecision and " " in topCenter:
             topCenter = "O"
             break
-        elif "3" in userDecision and " " in topRight:
+        elif "9" in userDecision and " " in topRight:
             topRight = "O"
             break
         elif "4" in userDecision and " " in middleLeft:
@@ -161,13 +161,13 @@ while True:
         elif "6" in userDecision and " " in middleRight:
             middleRight = "O"
             break
-        elif "7" in userDecision and " " in bottomLeft:
+        elif "1" in userDecision and " " in bottomLeft:
             bottomLeft = "O"
             break
-        elif "8" in userDecision and " " in bottomCenter:
+        elif "2" in userDecision and " " in bottomCenter:
             bottomCenter = "O"
             break
-        elif "9" in userDecision and " " in bottomRight:
+        elif "3" in userDecision and " " in bottomRight:
             bottomRight = "O"
             break
         else:
@@ -180,13 +180,13 @@ while True:
 # X user input, 3rd turn.
     while True:
         userDecision = input("\nPLAYER X: \nUsing the numbered board as guidance, type in the number to indicate where you want your X: ")
-        if "1" in userDecision and " " in topLeft:
+        if "7" in userDecision and " " in topLeft:
             topLeft = "X"
             break
-        elif "2" in userDecision and " " in topCenter:
+        elif "8" in userDecision and " " in topCenter:
             topCenter = "X"
             break
-        elif "3" in userDecision and " " in topRight:
+        elif "9" in userDecision and " " in topRight:
             topRight = "X"
             break
         elif "4" in userDecision and " " in middleLeft:
@@ -198,13 +198,13 @@ while True:
         elif "6" in userDecision and " " in middleRight:
             middleRight = "X"
             break
-        elif "7" in userDecision and " " in bottomLeft:
+        elif "1" in userDecision and " " in bottomLeft:
             bottomLeft = "X"
             break
-        elif "8" in userDecision and " " in bottomCenter:
+        elif "2" in userDecision and " " in bottomCenter:
             bottomCenter = "X"
             break
-        elif "9" in userDecision and " " in bottomRight:
+        elif "3" in userDecision and " " in bottomRight:
             bottomRight = "X"
             break
         else:
@@ -246,13 +246,13 @@ while True:
 # O user input, 3rd turn.            
     while True:
         userDecision = input("\nPLAYER O: \nUsing the numbered board as guidance, type in the number to indicate where you want your O: ")
-        if "1" in userDecision and " " in topLeft:
+        if "7" in userDecision and " " in topLeft:
             topLeft = "O"
             break
-        elif "2" in userDecision and " " in topCenter:
+        elif "8" in userDecision and " " in topCenter:
             topCenter = "O"
             break
-        elif "3" in userDecision and " " in topRight:
+        elif "9" in userDecision and " " in topRight:
             topRight = "O"
             break
         elif "4" in userDecision and " " in middleLeft:
@@ -264,13 +264,13 @@ while True:
         elif "6" in userDecision and " " in middleRight:
             middleRight = "O"
             break
-        elif "7" in userDecision and " " in bottomLeft:
+        elif "1" in userDecision and " " in bottomLeft:
             bottomLeft = "O"
             break
-        elif "8" in userDecision and " " in bottomCenter:
+        elif "2" in userDecision and " " in bottomCenter:
             bottomCenter = "O"
             break
-        elif "9" in userDecision and " " in bottomRight:
+        elif "3" in userDecision and " " in bottomRight:
             bottomRight = "O"
             break
         else:
@@ -311,13 +311,13 @@ while True:
 # X user input, 4th turn.
     while True:
         userDecision = input("\nPLAYER X: \nUsing the numbered board as guidance, type in the number to indicate where you want your X: ")
-        if "1" in userDecision and " " in topLeft:
+        if "7" in userDecision and " " in topLeft:
             topLeft = "X"
             break
-        elif "2" in userDecision and " " in topCenter:
+        elif "8" in userDecision and " " in topCenter:
             topCenter = "X"
             break
-        elif "3" in userDecision and " " in topRight:
+        elif "9" in userDecision and " " in topRight:
             topRight = "X"
             break
         elif "4" in userDecision and " " in middleLeft:
@@ -329,13 +329,13 @@ while True:
         elif "6" in userDecision and " " in middleRight:
             middleRight = "X"
             break
-        elif "7" in userDecision and " " in bottomLeft:
+        elif "1" in userDecision and " " in bottomLeft:
             bottomLeft = "X"
             break
-        elif "8" in userDecision and " " in bottomCenter:
+        elif "2" in userDecision and " " in bottomCenter:
             bottomCenter = "X"
             break
-        elif "9" in userDecision and " " in bottomRight:
+        elif "3" in userDecision and " " in bottomRight:
             bottomRight = "X"
             break
         else:
@@ -377,13 +377,13 @@ while True:
 # O user input, 4th turn.            
     while True:
         userDecision = input("\nPLAYER O: \nUsing the numbered board as guidance, type in the number to indicate where you want your O: ")
-        if "1" in userDecision and " " in topLeft:
+        if "7" in userDecision and " " in topLeft:
             topLeft = "O"
             break
-        elif "2" in userDecision and " " in topCenter:
+        elif "8" in userDecision and " " in topCenter:
             topCenter = "O"
             break
-        elif "3" in userDecision and " " in topRight:
+        elif "9" in userDecision and " " in topRight:
             topRight = "O"
             break
         elif "4" in userDecision and " " in middleLeft:
@@ -395,13 +395,13 @@ while True:
         elif "6" in userDecision and " " in middleRight:
             middleRight = "O"
             break
-        elif "7" in userDecision and " " in bottomLeft:
+        elif "1" in userDecision and " " in bottomLeft:
             bottomLeft = "O"
             break
-        elif "8" in userDecision and " " in bottomCenter:
+        elif "2" in userDecision and " " in bottomCenter:
             bottomCenter = "O"
             break
-        elif "9" in userDecision and " " in bottomRight:
+        elif "3" in userDecision and " " in bottomRight:
             bottomRight = "O"
             break
         else:
@@ -442,13 +442,13 @@ while True:
 # X user input, 5th turn.
     while True:
         userDecision = input("\nPLAYER X: \nUsing the numbered board as guidance, type in the number to indicate where you want your X: ")
-        if "1" in userDecision and " " in topLeft:
+        if "7" in userDecision and " " in topLeft:
             topLeft = "X"
             break
-        elif "2" in userDecision and " " in topCenter:
+        elif "8" in userDecision and " " in topCenter:
             topCenter = "X"
             break
-        elif "3" in userDecision and " " in topRight:
+        elif "9" in userDecision and " " in topRight:
             topRight = "X"
             break
         elif "4" in userDecision and " " in middleLeft:
@@ -460,13 +460,13 @@ while True:
         elif "6" in userDecision and " " in middleRight:
             middleRight = "X"
             break
-        elif "7" in userDecision and " " in bottomLeft:
+        elif "1" in userDecision and " " in bottomLeft:
             bottomLeft = "X"
             break
-        elif "8" in userDecision and " " in bottomCenter:
+        elif "2" in userDecision and " " in bottomCenter:
             bottomCenter = "X"
             break
-        elif "9" in userDecision and " " in bottomRight:
+        elif "3" in userDecision and " " in bottomRight:
             bottomRight = "X"
             break
         else:
