@@ -7,3 +7,7 @@ Uploaded: *TicTacToe.py*
 * Initial release
 * Added a statement at the end to prevent application from closing immediately after a win or a tie
 * In the process of determining if the code can be shortened further
+
+### June 8 2017
+
+* Rearranged the numbering system to match the numpad on a keyboard
