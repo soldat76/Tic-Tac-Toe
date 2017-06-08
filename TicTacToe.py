@@ -505,3 +505,6 @@ while True:
     else:
         print("The game is a tie!")
         break
+
+# This statement prevents the application from exiting when a victory or a time is called.
+input("\n\nPress enter to exit the application.")
