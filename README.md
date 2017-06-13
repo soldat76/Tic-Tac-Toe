@@ -17,3 +17,4 @@ Uploaded: *TicTacToe2.py*
 
 * Second version of TicTacToe.py
 * Reduced the length of the TicTacToe.py script by 50% (~250 lines)
+* Removed many instances of unnecessary code
