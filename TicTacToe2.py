@@ -150,28 +150,20 @@ def UserXWin():
 # Define a variable that checks win condition for O. If a win is detected, stop the program.
 def UserOWin():
     if "O" in topLeft and "O" in topCenter and "O" in topRight:
-        print("The winner is player O!")
         return False
     elif "O" in middleLeft and "O" in middleCenter and "O" in middleRight:
-        print("The winner is player O!")
         return False
     elif "O" in bottomLeft and "O" in bottomCenter and "O" in bottomRight:
-        print("The winner is player O!")
         return False
     elif "O" in topLeft and "O" in middleLeft and "O" in bottomLeft:
-        print("The winner is player O!")
         return False
     elif "O" in topCenter and "O" in middleCenter and "O" in bottomCenter:
-        print("The winner is player O!")
         return False
     elif "O" in topRight and "O" in middleRight and "O" in bottomRight:
-        print("The winner is player O!")
         return False
     elif "O" in topLeft and "O" in middleCenter and "O" in bottomRight:
-        print("The winner is player O!")
         return False
     elif "O" in topRight and "O" in middleCenter and "O" in bottomLeft:
-        print("The winner is player O!")
         return False
     else:
         return True
@@ -197,18 +189,15 @@ UserXInput()
 # Start checking the win condition (3 X's or O's in a row)
 
 # Check win condition for X.
-UserXWin()
-
 if UserXWin() is False:
     print("The winner is player X!")
     
 # O user input, 3rd turn.
-if UserXWin() is True:
+else:
     UserOInput()
     
 # Checking win condition O (3 X's or O's in a row)
 if UserXWin() is True:
-    UserOWin()
     if UserOWin() is False:
         print("The winner is player O!")
     
