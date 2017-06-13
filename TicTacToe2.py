@@ -44,31 +44,31 @@ def UserXInput():
     
     while True:
         userDecision = input("\nPLAYER X: \nUsing the numbered board as guidance, type in the number to indicate where you want your X: ")
-        if "7" in userDecision:
+        if "7" in userDecision and " " in topLeft:
             topLeft = "X"
             break
-        elif "8" in userDecision:
+        elif "8" in userDecision and " " in topCenter:
             topCenter = "X"
             break
-        elif "9" in userDecision:
+        elif "9" in userDecision and " " in topRight:
             topRight = "X"
             break
-        elif "4" in userDecision:
+        elif "4" in userDecision and " " in middleLeft:
             middleLeft = "X"
             break
-        elif "5" in userDecision:
+        elif "5" in userDecision and " " in middleCenter:
             middleCenter = "X"
             break
-        elif "6" in userDecision:
+        elif "6" in userDecision and " " in middleRight:
             middleRight = "X"
             break
-        elif "1" in userDecision:
+        elif "1" in userDecision and " " in bottomLeft:
             bottomLeft = "X"
             break
-        elif "2" in userDecision:
+        elif "2" in userDecision and " " in bottomCenter:
             bottomCenter = "X"
             break
-        elif "3" in userDecision:
+        elif "3" in userDecision and " " in bottomRight:
             bottomRight = "X"
             break
         else:
