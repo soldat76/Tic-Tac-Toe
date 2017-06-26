@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-A small script in Python that codes for a simple game of 3x3 Tic Tac Toe
+A small program in Python that codes for a simple game of 3x3 Tic Tac Toe
 
 ### June 7 2017
 Uploaded: *TicTacToe.py*
